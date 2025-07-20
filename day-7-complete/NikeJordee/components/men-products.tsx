@@ -84,7 +84,7 @@ export default function MenProducts() {
             <div key={product._id} className="group bg-white border shadow-lg rounded-[4px]">
               <Link href={`/product/${product.slug.current}`} legacyBehavior>
                 <a>
-                  <div className="relative aspect-square bg-slate-50  rounded-[4px] sm:p-4">
+                  <div className="aspect-square bg-slate-50  rounded-[4px] sm:p-4">
                     {product.tags.includes('new') && (
                       <div className="absolute top-2 sm:top-3 left-2 sm:left-3 z-10">
                         <span className="bg-[#00FF66] text-black text-[10px] sm:text-xs px-2 sm:px-3 py-1 rounded-[4px]">
